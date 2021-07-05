@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Home page...
+{% endblock title %}
+
+
+
+
+{% block 'content' %}
+
+
+      <div class="container">
+
+        <div class="row row-cols-2">
+          <div class="col">Map 1 - (tile style: OpenStreetMap)<iframe src="/map1" height="400" width="500" title="Iframe Example"></iframe></div>
+          <div class="col">Map 2 - (tile style: Stamen Terrain)<iframe src="map2" height="400" width="500" title="Iframe Example"></iframe></div>
+          <div class="col">Map 3 - (tile style: Stamen Watercolor)<iframe src="map3" height="400" width="500" title="Iframe Example"></iframe></div>
+          <div class="col">Map 4 - (tile style: Stamen Toner)<iframe src="map4" height="400" width="500" title="Iframe Example"></iframe></div>
+        </div>
+
+
+        <div class="col-12" style="background-color: bisque;"> ... </div>
+
+      </div>
+
+
+{% endblock %}
+
