@@ -7,4 +7,4 @@ A web app in both Flask and Django using Folium package.
 
 
 
-Detail is at: https://umar-yusuf.blogspot.com/2021/05/python-web-map-with-flaskdjango-and.html
+Detail is at: https://umar-yusuf.blogspot.com/2021/07/python-web-map-with-flaskdjango-and.html
